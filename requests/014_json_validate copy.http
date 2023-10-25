@@ -1,0 +1,14 @@
+
+POST http://localhost:8080/json/validate HTTP/1.1
+Host: localhost
+Content-Type: application/json
+Accept: application/json
+Content-Length: 166
+
+{
+  "firstName": "Babs",
+  "lastName": "Jensen",
+  "phoneNumber": "+15121234567",
+  "email": "babs.jensen@example.com",
+  "lastUpdate": "2023-10-25T20:01:53+00:00"
+}

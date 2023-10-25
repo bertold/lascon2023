@@ -1,0 +1,7 @@
+POST http://localhost:8080/body/toolarge HTTP/1.1
+Host: localhost
+Content-Type: application/json
+Accept: application/json
+Content-Length: 16
+
+{"my":"message"}

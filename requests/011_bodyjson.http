@@ -1,0 +1,11 @@
+
+POST http://localhost:8080/json/basicjson HTTP/1.1
+Host: localhost
+Content-Type: application/json
+Accept: application/json
+Content-Length: 49
+
+{
+  "firstName": "Babs",
+  "lastName": "Jensen"
+}
